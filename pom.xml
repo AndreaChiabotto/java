@@ -31,5 +31,9 @@
 
     <build>
         <finalName>learning_java</finalName>
+        <plugins>
+            <plugin>  <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0</version></plugin>
+        </plugins>
     </build>
 </project>
